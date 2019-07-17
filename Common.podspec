@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage = 'https://twitter.com/inacioferrarini'
   s.social_media_url = 'https://twitter.com/inacioferrarini'
   s.authors = { "Inacio Ferrarini" => "inacio.ferrarini@gmail.com" }
-  s.source = { :git => "https://github.com/inacioferrarini/Common.git", :tag  => "v"+s.version.to_s }
+  s.source = { :git => "https://github.com/inacioferrarini/lojinha-common.git", :tag  => "v"+s.version.to_s }
   s.platforms = { :ios => "10.0" }
   s.requires_arc = true
   s.swift_version = '4.2'
