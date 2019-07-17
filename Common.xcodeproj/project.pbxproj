@@ -33,7 +33,6 @@
 		35B742371F82A61E00829B21 /* Quick.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 35B742351F82A61E00829B21 /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		35B742381F82A62900829B21 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35B742341F82A61D00829B21 /* Nimble.framework */; };
 		35B742391F82A62900829B21 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35B742351F82A61E00829B21 /* Quick.framework */; };
-		BBAD86DC22DF8AB2007A5D01 /* Coordinated.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAD86D222DF8AB2007A5D01 /* Coordinated.swift */; };
 		BBAD86DD22DF8AB2007A5D01 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAD86D322DF8AB2007A5D01 /* Coordinator.swift */; };
 		BBAD86DE22DF8AB2007A5D01 /* XibedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAD86D522DF8AB2007A5D01 /* XibedViewController.swift */; };
 		BBAD86DF22DF8AB2007A5D01 /* XibedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAD86D622DF8AB2007A5D01 /* XibedView.swift */; };
@@ -128,7 +127,6 @@
 		35B7422E1F82A5E000829B21 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
 		35B742341F82A61D00829B21 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/Mac/Nimble.framework; sourceTree = "<group>"; };
 		35B742351F82A61E00829B21 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/Mac/Quick.framework; sourceTree = "<group>"; };
-		BBAD86D222DF8AB2007A5D01 /* Coordinated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinated.swift; sourceTree = "<group>"; };
 		BBAD86D322DF8AB2007A5D01 /* Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		BBAD86D522DF8AB2007A5D01 /* XibedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XibedViewController.swift; sourceTree = "<group>"; };
 		BBAD86D622DF8AB2007A5D01 /* XibedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XibedView.swift; sourceTree = "<group>"; };
@@ -289,7 +287,6 @@
 		BBAD86D122DF8AB2007A5D01 /* Coordinators */ = {
 			isa = PBXGroup;
 			children = (
-				BBAD86D222DF8AB2007A5D01 /* Coordinated.swift */,
 				BBAD86D322DF8AB2007A5D01 /* Coordinator.swift */,
 			);
 			path = Coordinators;
@@ -298,9 +295,9 @@
 		BBAD86D422DF8AB2007A5D01 /* Initialization */ = {
 			isa = PBXGroup;
 			children = (
+				BBAD86D722DF8AB2007A5D01 /* Instantiable.swift */,
 				BBAD86D522DF8AB2007A5D01 /* XibedViewController.swift */,
 				BBAD86D622DF8AB2007A5D01 /* XibedView.swift */,
-				BBAD86D722DF8AB2007A5D01 /* Instantiable.swift */,
 				BBAD86D822DF8AB2007A5D01 /* Storyboarded.swift */,
 				BBAD86D922DF8AB2007A5D01 /* ViewCodedViewController.swift */,
 			);
@@ -610,7 +607,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBAD86DC22DF8AB2007A5D01 /* Coordinated.swift in Sources */,
 				BBAD86E222DF8AB2007A5D01 /* ViewCodedViewController.swift in Sources */,
 				BBAD86E022DF8AB2007A5D01 /* Instantiable.swift in Sources */,
 				359649031FB18CC000FC7ADC /* Common.swift in Sources */,

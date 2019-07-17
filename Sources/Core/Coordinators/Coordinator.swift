@@ -1,15 +1,16 @@
-//
-//  Coordinator.swift
-//  CoordinatorTest
-//
-//  Created by Inácio Ferrarini on 04/07/19.
-//  Copyright © 2019 inacio. All rights reserved.
-//
-
 import UIKit
 
+/// Defines a contract that every `Coordinator` must abide.
+///
+/// Essentially, a `Coordinator` is responsible to orchestrate
+/// a navigation flow between different ViewControllers in order
+/// to complete a given task.
+///
+/// A `Coordinator` can be composed of other `Coordinators`.
+/// In this context, they will be called `SubCoordinators`.
 public protocol Coordinator: class {
     
+    /// Starts the `Coordinator`
     func start()
     
 }
