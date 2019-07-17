@@ -8,11 +8,11 @@
 
 import UIKit
 
-protocol XibedViewController: Instantiable {}
+public protocol XibedViewController: Instantiable {}
 
-extension XibedViewController where Self: UIViewController {
+public extension XibedViewController where Self: UIViewController {
     
-    static func instantiate() -> Self? {
+    public static func instantiate() -> Self? {
         let className = String(describing: self)
         let bundle = Bundle(for: Self.self)
         return Self(nibName: className, bundle: bundle)

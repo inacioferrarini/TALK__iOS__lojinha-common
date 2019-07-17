@@ -8,11 +8,11 @@
 
 import UIKit
 
-protocol ViewCodedViewController: Instantiable {}
+public protocol ViewCodedViewController: Instantiable {}
 
-extension ViewCodedViewController where Self: UIViewController {
+public extension ViewCodedViewController where Self: UIViewController {
     
-    static func instantiate() -> Self? {
+    public static func instantiate() -> Self? {
         return Self()
     }
     

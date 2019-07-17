@@ -8,11 +8,11 @@
 
 import UIKit
 
-protocol Storyboarded: Instantiable {}
+public protocol Storyboarded: Instantiable {}
 
-extension Storyboarded where Self: UIViewController {
+public extension Storyboarded where Self: UIViewController {
     
-    static func instantiate() -> Self? {
+    public static func instantiate() -> Self? {
         let className = String(describing: self)
         let bundle = Bundle(for: Self.self)
         let storyboard = UIStoryboard(name: className, bundle: bundle)
