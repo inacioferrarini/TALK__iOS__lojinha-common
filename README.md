@@ -19,8 +19,28 @@ Common Module
 
 ## Requirements
 
-- iOS 8.0+ / Mac OS X 10.10+ / tvOS 9.0+ / watchOS 2.0+
+- iOS 10.0+
 - Xcode 10.0+
+
+## Development
+
+As a dependency for other podspecs, it was required to be present in a podspec repository.
+In order to update, some steps applies:
+
+Once the changes were made,
+Increment `s.version` in `Common.pospec`
+Commit your changes
+
+```bash
+$ bundle exec pod lib lint
+```
+
+Validation passed?
+```bash
+$ git tag <VERSION> //ex:  $ git tag v0.0.1
+$ git push --tags
+$ pod repo push INACIO_PODSPECS Common.podspec
+```
 
 ## Installation
 
