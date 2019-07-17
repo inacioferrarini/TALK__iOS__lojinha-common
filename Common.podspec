@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.version = '0.0.1'
   s.license = { :type => "MIT", :file => "LICENSE" }
   s.summary = 'Common Module'
-  s.homepage = 'inacioferrarini'
+  s.homepage = 'https://twitter.com/inacioferrarini'
   s.social_media_url = 'https://twitter.com/inacioferrarini'
   s.authors = { "Inacio Ferrarini" => "inacio.ferrarini@gmail.com" }
   s.source = { :git => "https://github.com/inacioferrarini/Common.git", :tag  => "v"+s.version.to_s }

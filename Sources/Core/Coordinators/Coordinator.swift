@@ -8,7 +8,7 @@ import UIKit
 ///
 /// A `Coordinator` can be composed of other `Coordinators`.
 /// In this context, they will be called `SubCoordinators`.
-public protocol Coordinator: AnyClass {
+public protocol Coordinator: AnyObject {
     
     /// Starts the `Coordinator`
     func start()
