@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.social_media_url = 'https://twitter.com/inacioferrarini'
   s.authors = { "Inacio Ferrarini" => "inacio.ferrarini@gmail.com" }
   s.source = { :git => "https://github.com/inacioferrarini/Common.git", :tag  => "v"+s.version.to_s }
-  s.platforms = { :ios => "10.0", :osx => "10.10", :tvos => "9.0", :watchos => "2.0" }
+  s.platforms = { :ios => "10.0" }
   s.requires_arc = true
   s.swift_version = '4.2'
   s.cocoapods_version = '>= 1.4.0'
