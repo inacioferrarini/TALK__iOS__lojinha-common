@@ -40,6 +40,7 @@
 		BBAD86E122DF8AB2007A5D01 /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAD86D822DF8AB2007A5D01 /* Storyboarded.swift */; };
 		BBAD86E222DF8AB2007A5D01 /* ViewCodedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAD86D922DF8AB2007A5D01 /* ViewCodedViewController.swift */; };
 		BBAD86E322DF8AB2007A5D01 /* Loggable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAD86DB22DF8AB2007A5D01 /* Loggable.swift */; };
+		BBBA34FC22F38D3100A34D99 /* Module.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBA34FB22F38D3100A34D99 /* Module.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -134,6 +135,7 @@
 		BBAD86D822DF8AB2007A5D01 /* Storyboarded.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
 		BBAD86D922DF8AB2007A5D01 /* ViewCodedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewCodedViewController.swift; sourceTree = "<group>"; };
 		BBAD86DB22DF8AB2007A5D01 /* Loggable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Loggable.swift; sourceTree = "<group>"; };
+		BBBA34FB22F38D3100A34D99 /* Module.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Module.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -278,6 +280,7 @@
 			children = (
 				BBAD86D122DF8AB2007A5D01 /* Coordinators */,
 				BBAD86D422DF8AB2007A5D01 /* Initialization */,
+				BBBA34FA22F38D2200A34D99 /* Module */,
 				BBAD86DA22DF8AB2007A5D01 /* Loggable */,
 				359649021FB18CBF00FC7ADC /* Common.swift */,
 			);
@@ -310,6 +313,14 @@
 				BBAD86DB22DF8AB2007A5D01 /* Loggable.swift */,
 			);
 			path = Loggable;
+			sourceTree = "<group>";
+		};
+		BBBA34FA22F38D2200A34D99 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				BBBA34FB22F38D3100A34D99 /* Module.swift */,
+			);
+			path = Module;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -610,6 +621,7 @@
 				BBAD86E222DF8AB2007A5D01 /* ViewCodedViewController.swift in Sources */,
 				BBAD86E022DF8AB2007A5D01 /* Instantiable.swift in Sources */,
 				359649031FB18CC000FC7ADC /* Common.swift in Sources */,
+				BBBA34FC22F38D3100A34D99 /* Module.swift in Sources */,
 				BBAD86DD22DF8AB2007A5D01 /* Coordinator.swift in Sources */,
 				BBAD86DF22DF8AB2007A5D01 /* XibedView.swift in Sources */,
 				BBAD86E322DF8AB2007A5D01 /* Loggable.swift in Sources */,
